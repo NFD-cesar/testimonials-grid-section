@@ -14,11 +14,11 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
 
 ### Screenshot
 
-![](./images/Captura.png)
+![](./images/Captura.PNG)
 
 ### Links
 
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [Add live site URL here](https://nfd-cesar.github.io/testimonials-grid-section/)
 
 ## My process
 ### Built with
