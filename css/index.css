@@ -1,0 +1,141 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --blackish-blue: hsl(219, 29%, 14%);
+    --grayish-blue: hsl(217, 19%, 35%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Spartan, Helvetica, sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.main-container {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.main--card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 28px 20px 30px;
+    border-radius: 10px;
+}
+
+.daniel {
+    color: var(--white);
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-size: 104px;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: top;
+}
+.daniel p {
+    color: var(--light-gray);
+}
+
+.jonathan {
+    color: var(--white);
+    background-color: var(--grayish-blue);
+}
+.jonathan p {
+    color: var(--light-gray);
+}
+
+.jeanette {
+    color: var(--blackish-blue);
+    background-color: var(--white);
+}
+.jeanette p {
+    color: var(--grayish-blue);
+}
+
+.patrick {
+    color: var(--white);
+    background-color: var(--blackish-blue);
+}
+.patrick p {
+    color: var(--light-gray);
+}
+
+.kira {
+    color: var(--blackish-blue);
+    background-color: var(--white);
+    box-shadow: 10px 25px 40px rgb(211, 211, 211);
+}
+.kira p {
+    color: var(--grayish-blue);
+}
+
+.main--card .main-profile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.main-profile img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.daniel .main-profile img {
+    border: 2px solid #a775f1;
+}
+
+.patrick .main-profile img {
+    border: 2px solid #a775f1;
+}
+
+.main--card .main-profile .main--profile-name h2 {
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+    letter-spacing: .2px;
+}
+
+.main--card .main-profile .main--profile-name p {
+    font-size: 1.1rem;
+    letter-spacing: .2px;
+}
+
+.main--card .main--title h1 {
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    letter-spacing: .8px;
+}
+
+.main--card .main--description {
+    padding: 0 8px 0 0;
+}
+
+.main--card .main--description p {
+    font-size: 1.2rem;
+    line-height: 1.8em;
+}
+
+footer {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+footer a {
+    font-size: 1.2rem;
+}
