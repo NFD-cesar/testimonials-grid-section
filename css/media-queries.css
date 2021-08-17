@@ -41,7 +41,7 @@
 @media (min-width: 1351px) {
     .main-container {
         max-width: 1440px;
-        padding: 40px 100px;
+        padding: 30px 100px;
         grid-template: repeat(2, 1fr) / repeat(4, 1fr);
         grid-template-areas: 
         "row1 row1 row2 row3"
@@ -78,5 +78,9 @@
 
     .main--card .main--description p {
         line-height: 1.6em;
+    }
+
+    footer {
+        margin-bottom: 5px;
     }
 }
