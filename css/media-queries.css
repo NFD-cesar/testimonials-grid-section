@@ -1,0 +1,82 @@
+@media (min-width: 768px) {
+    .main-container {
+        max-width: 780px;
+        padding: 80px 20px;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+        grid-template-areas: 
+        "row1 row1 row2"
+        "row3 row3 row4"
+        "row5 row5 row5";
+        gap: 12px;
+    }
+
+    .main--card {
+        margin-bottom: 0;
+        padding: 20px 30px;
+    }
+
+    .daniel {
+        grid-area: row1;
+        background-position-x: 90%;
+    }
+
+    .jeanette {
+        grid-area: row2;
+    }
+
+    .patrick {
+        grid-area: row3;
+    }
+
+    .jonathan {
+        grid-area: row4;
+    }
+
+    .kira {
+        grid-area: row5;
+    }
+}
+
+@media (min-width: 1351px) {
+    .main-container {
+        max-width: 1440px;
+        padding: 40px 100px;
+        grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+        grid-template-areas: 
+        "row1 row1 row2 row3"
+        "row4 row5 row5 row3";
+        gap: 15px;
+    }
+
+    .daniel {
+        grid-area: row1;
+        background-position-x: 80%;
+    }
+
+    .jonathan {
+        grid-area: row2;
+    }
+
+    .kira {
+        grid-area: row3;
+    }
+
+    .jeanette {
+        grid-area: row4;
+    }
+    
+    .patrick {
+        grid-area: row5;
+    }
+
+    .main--card .main--title h1 {
+        margin-bottom: 15px;
+        padding-right: 10px;
+        line-height: 2.1rem;
+    }
+
+    .main--card .main--description p {
+        line-height: 1.6em;
+    }
+}
