@@ -39,6 +39,14 @@
 }
 
 @media (min-width: 1351px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
     .main-container {
         max-width: 1440px;
         padding: 30px 100px;
