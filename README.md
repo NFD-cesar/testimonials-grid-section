@@ -9,8 +9,8 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
   - HTML & CSS Grid
 
 - Author
-  - Frontend Mentor: [NFD-cesar](https://www.frontendmentor.io/profile/NFD-cesar)
-  - Twitter: [NFD César Ramírez](https://twitter.com/nfd_cesar)
+  - Frontend Mentor: [César Ramírez](https://www.frontendmentor.io/profile/ramez-cesar)
+  - Twitter: [César Ramírez](https://twitter.com/ramez_cesar)
 
 ### Screenshot
 
@@ -18,7 +18,7 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://nfd-cesar.github.io/testimonials-grid-section/)
+- Live Site URL: [Add live site URL here](https://ramez-cesar.github.io/testimonials-grid-section/)
 
 ## My process
 ### Built with
